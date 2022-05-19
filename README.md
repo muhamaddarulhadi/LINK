@@ -8,7 +8,7 @@
 * [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 
 
-### How to Install
+### Reference
 * [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/)
 * [MongoDB Compass](https://www.guru99.com/installation-configuration-mongodb.html)
 * [MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/)
