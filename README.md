@@ -1,4 +1,4 @@
-## TUTORIAL ON RazorPage .Net6.0
+## TUTORIAL ON RazorPage .Net6.0 and MongoDB
 
 ### Installer
 * [.Net 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
