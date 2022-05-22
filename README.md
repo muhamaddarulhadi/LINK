@@ -17,7 +17,7 @@
 * [MongoDB Compass](https://www.guru99.com/installation-configuration-mongodb.html)
 * [MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/)
 
-
+***
 
 ### How to create project
 
@@ -39,10 +39,7 @@
     code -r TestRazor
     ``` 
 
-
-    
-
-
+***
 
 ### Problem run with debugging .net6.0
 
