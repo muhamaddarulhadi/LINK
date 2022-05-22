@@ -1,4 +1,4 @@
-## LINK
+## TUTORIAL ON RazorPage .Net6.0
 
 ### Installer
 * [.Net 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
