@@ -47,7 +47,7 @@
     > ![image](https://user-images.githubusercontent.com/47632993/169677806-a6aa8a5f-2e53-410a-a139-60d3bd381310.png)
 6. Pilih .NetCore
     > ![image](https://user-images.githubusercontent.com/47632993/169677866-88c9e586-3fb6-4c8f-a4a1-dfa774be4dc2.png)
-7. Buka file launch.json dan di line ini, ubah <insert-target-framework-here> kepada net6.0 dan <insert-project-name-here> kepada nama project iaitu TestRazor
+7. Buka file launch.json dan di line ini, ubah "< insert-target-framework-here >" kepada net6.0 dan "< insert-project-name-here >" kepada nama project iaitu TestRazor
 8. Masukkan koma iaitu "," di sebelah "stopAtEntry": false
 9. Masukkan code ini dibawah "stopAtEntry": false,
     
