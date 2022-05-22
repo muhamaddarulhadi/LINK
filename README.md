@@ -19,7 +19,7 @@
 
 ***
 
-### How to create project
+### How to create RazorPage project
 
 1. Type this command on Terminal to create a project with authentication
 
@@ -41,7 +41,7 @@
 
 ***
 
-### Problem run with debugging .net6.0
+### Problem run RazorPage with debugging .Net6.0
 
 1. After finish create project, click fn+F5 on keyboard
 2. Choose .NET 5+ and NET Core
