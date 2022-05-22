@@ -21,18 +21,25 @@
 
 ### How to create project
 
-1. Type this command on Terminal
-
+1. Type this command on Terminal to create a project with authentication
 
     ```console 
     dotnet new webapp -o TestRazor -au individual
     ``` 
 
-2. To run code
+2. To trust the code before run the project
+
+    ```console 
+    dotnet dev-certs https --trust
+    ``` 
+
+3. To run code
     
     ```console 
     code -r TestRazor
     ``` 
+
+
     
 
 
