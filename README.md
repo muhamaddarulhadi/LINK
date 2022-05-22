@@ -58,3 +58,4 @@
             },
     ```
 10. Save project dan run lagi sekali
+11. Browser akan buka projek secara automatik
