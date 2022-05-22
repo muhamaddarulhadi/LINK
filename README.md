@@ -35,6 +35,8 @@
     ``` 
     
 
+
+
 ### Problem run with debugging .net6.0
 
 1. Selepas selesai create project, run project fn+f5
