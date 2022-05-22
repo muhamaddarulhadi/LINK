@@ -57,8 +57,8 @@
 6. Choose .NET Core
     > ![image](https://user-images.githubusercontent.com/47632993/169677866-88c9e586-3fb6-4c8f-a4a1-dfa774be4dc2.png)
 7. Open launch.json, on this line, change "*< insert-target-framework-here >*" to net6.0 and "*< insert-project-name-here >*" to project name such as TestRazor
-8. Masukkan koma iaitu "," di sebelah "stopAtEntry": false
-9. Masukkan code ini dibawah "stopAtEntry": false,
+8. Insert comma "," beside "stopAtEntry": false
+9. Insert this code below "stopAtEntry": false,
     
     ```JSON 
     "serverReadyAction": {
@@ -66,5 +66,5 @@
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
             },
     ```
-10. Save project dan run lagi sekali
-11. Browser akan buka projek secara automatik
+10. Save project and run it back
+11. Project will be open automatically on browser
