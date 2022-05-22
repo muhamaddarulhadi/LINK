@@ -16,3 +16,14 @@
 * [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/)
 * [MongoDB Compass](https://www.guru99.com/installation-configuration-mongodb.html)
 * [MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/)
+
+
+
+### How to create project
+
+1. Type this command on Terminal
+
+
+    ```console 
+    dotnet new webapp -o TestRazor -au individual
+    ``` 
