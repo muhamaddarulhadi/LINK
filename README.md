@@ -5,6 +5,7 @@
 * [VS Code](https://code.visualstudio.com/download)
 * [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) for VS Code
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions) for VS Code
+* [SQL lite Extensions](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer) **(*JIKA MAHU*)**
 * VS Code [Visual Theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) **(*JIKA MAHU*)**
 * VS Code [Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) **(*JIKA MAHU*)**
 * [MongoDB Community Edition](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.8-signed.msi)
@@ -18,6 +19,7 @@
 * [MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/)
 
 ***
+
 
 ### How to create RazorPage project
 
@@ -65,3 +67,35 @@
     ```
 10. Save project and run it back
 11. Project will be open automatically on browser
+
+***
+
+### Install Package
+
+1. Type on terminal
+    
+    ```console
+    dotnet tool install --global dotnet-ef 
+    ```
+
+***
+
+### Migrations Command **(ONLY FOR DEVELOPMENT ONLY)**
+
+1. Create migrations
+    
+    ```console
+    dotnet ef migrations add tbl_departments   <-- tbl_departments is migration name
+    ```
+
+2. Remove migrations
+    
+    ```console
+    dotnet ef migrations remove
+    ```
+    
+3. Execute migrations
+    
+    ```console
+    dotnet ef database update
+    ```
