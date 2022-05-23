@@ -17,6 +17,11 @@
 * [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/)
 * [MongoDB Compass](https://www.guru99.com/installation-configuration-mongodb.html)
 * [MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/)
+* [Web Api with MongoDB](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-6.0&tabs=visual-studio-code)
+* What is [BSON](https://www.mongodb.com/basics/bson#:~:text=BSON%20stands%20for%20Binary%20Javascript,binary%20formats%2C%20like%20Protocol%20Buffers.)
+* [JSON and BSON](https://www.mongodb.com/json-and-bson)
+* [Blazor CRUD with MongoDB](https://www.c-sharpcorner.com/article/blazor-crud-using-mongodb/)
+* [Bypass CDN Link consist of @](https://stackoverflow.com/questions/67969553/how-to-get-cdn-with-in-it-in-cshtmlrazor-page)
 
 ***
 
@@ -85,8 +90,9 @@
 1. Create migrations
     
     ```console
-    dotnet ef migrations add tbl_departments   <-- tbl_departments is migration name
+    dotnet ef migrations add tbl_departments   
     ```
+    Note: tbl_departments is migration name
 
 2. Remove migrations
     
@@ -99,3 +105,36 @@
     ```console
     dotnet ef database update
     ```
+
+***
+
+### Razorpage connection string using MongoDB  
+
+1. Install this package using terminal
+    
+    ```console
+    dotnet add package MongoDB.Driver
+    ```
+2. To use MongoDB on Entity Models
+
+    ```c#
+    using MongoDB.Bson;
+    using MongoDB.Bson.Serialization.Attributes;
+    ```
+
+3. Edit appsettings.json, example :
+
+    ```JSON
+    "UMMDBConnection" : {
+        "ConnectionString" : "mongodb://localhost:27017",
+        "DatabaseName" : "UUMDB",
+        "DepartmentCollectionName" : "Departments"
+    },
+    ```
+
+***
+
+### VS Code keyboard cheat sheet
+
+1. [Shortcut Foo](https://www.shortcutfoo.com/app/dojos/vscode-win/cheatsheet)
+2. [Keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
