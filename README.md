@@ -27,6 +27,7 @@
 * [Multiple Collections](https://stackoverflow.com/questions/63648217/asp-net-core-web-api-and-mongodb-with-multiple-collections) MongoDB
 * [MongoDB CRUD Operations](https://www.mongodb.com/docs/manual/crud/)
 * [Material Design Icons](https://pictogrammers.github.io/@mdi/font/6.5.95/)
+* JQuery [Siblings](https://www.w3schools.com/jquery/jquery_traversing_siblings.asp)
 
 
 ***
