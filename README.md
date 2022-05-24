@@ -26,6 +26,7 @@
 * [Working with MongoDB in ASP.NET Core](https://codewithmukesh.com/blog/mongodb-in-aspnet-core/)
 * [Multiple Collections](https://stackoverflow.com/questions/63648217/asp-net-core-web-api-and-mongodb-with-multiple-collections) MongoDB
 * [MongoDB CRUD Operations](https://www.mongodb.com/docs/manual/crud/)
+* [Material Design Icons](https://pictogrammers.github.io/@mdi/font/6.5.95/)
 
 
 ***
