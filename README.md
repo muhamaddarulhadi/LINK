@@ -23,6 +23,10 @@
 * [Blazor CRUD with MongoDB](https://www.c-sharpcorner.com/article/blazor-crud-using-mongodb/)
 * [Bypass CDN Link consist of @](https://stackoverflow.com/questions/67969553/how-to-get-cdn-with-in-it-in-cshtmlrazor-page)
 * CSS [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) Cheatsheet
+* [Working with MongoDB in ASP.NET Core](https://codewithmukesh.com/blog/mongodb-in-aspnet-core/)
+* [Multiple Collections](https://stackoverflow.com/questions/63648217/asp-net-core-web-api-and-mongodb-with-multiple-collections) MongoDB
+* [MongoDB CRUD Operations](https://www.mongodb.com/docs/manual/crud/)
+
 
 ***
 
@@ -123,7 +127,7 @@
     using MongoDB.Bson.Serialization.Attributes;
     ```
 
-3. Edit appsettings.json, example :
+3. Edit appsettings.json, example for one Collection (ONE TABLE):
 
     ```JSON
     "UMMDBConnection" : {
