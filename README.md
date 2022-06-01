@@ -29,6 +29,8 @@
 * [Material Design Icons](https://pictogrammers.github.io/@mdi/font/6.5.95/)
 * JQuery [Siblings](https://www.w3schools.com/jquery/jquery_traversing_siblings.asp)
 
+##### Add-On
+* [Hot Reload](https://www.massivepixel.co/2019-02-12-razor-page-watcher/2019-02-12-razor-page-watcher/)
 
 ***
 
