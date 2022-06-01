@@ -31,6 +31,7 @@
 
 ##### Add-On
 * [Hot Reload](https://www.massivepixel.co/2019-02-12-razor-page-watcher/2019-02-12-razor-page-watcher/)
+* [Google Captcha](https://github.com/michaelvs97/AspNetCore.ReCaptcha)
 
 ***
 
