@@ -30,6 +30,7 @@
 * JQuery [Siblings](https://www.w3schools.com/jquery/jquery_traversing_siblings.asp)
 * Show Identity [Files](https://andrewlock.net/customising-aspnetcore-identity-without-editing-the-pagemodel/)
 * Scaffolding Identity [Page](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-6.0&tabs=netcore-cli)
+* [EF Core](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-6.0&tabs=visual-studio)
 
 ##### Add-On
 * [Hot Reload](https://www.massivepixel.co/2019-02-12-razor-page-watcher/2019-02-12-razor-page-watcher/)
