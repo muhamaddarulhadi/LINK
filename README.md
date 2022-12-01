@@ -98,7 +98,7 @@
 
 ***
 
-### Migrations Command **(ONLY FOR DEVELOPMENT ONLY)**
+### Migrations Command **(FOR DEVELOPMENT ONLY)**
 
 1. Create migrations
     
