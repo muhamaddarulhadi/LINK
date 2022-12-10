@@ -38,6 +38,10 @@
 
 ***
 
+### Command
+
+1. 
+
 
 ### How to create RazorPage project
 
@@ -49,19 +53,19 @@
    dotnet new webapp -o TestRazor -au individual
    ``` 
    
-   Type this command to create project without authentication
+   Type this command on Terminal to create project without authentication
     
    ```console 
    dotnet new webapp -o TestRazor
    ```  
    
-   Type this command to create project by forcing .Net version; for example .Net5.0
+   Type this command on Terminal to create project by forcing .Net version; for example .Net5.0
    
    ```console 
    dotnet new webapp -o TestRazor -f net5.0
    ```  
    
-   Type this command to create project by forcing .Net version with authentication; for example .Net5.0
+   Type this command on Terminal to create project by forcing .Net version with authentication; for example .Net5.0
    
    ```console 
    dotnet new webapp -o TestRazor -au individual -f net5.0
