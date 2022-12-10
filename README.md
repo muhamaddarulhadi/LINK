@@ -40,8 +40,17 @@
 
 ### Command
 
-1. 
+1. To list all the versions of dotnet core installed in the system, open the command prompt and type the following command :
 
+   ```console
+   dotnet --info
+   ```
+
+2. If you want to know the specific version used for running the application, go to the folder location, and type cmd in the address bar at the top to open command prompt. Then type this in command prompt.
+
+   ```console
+   dotnet --version
+   ```
 
 ### How to create RazorPage project
 
